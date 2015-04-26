@@ -80,5 +80,6 @@ cn[3] <- "Subject"
 cn[4:82] <- paste("mean_of_", cn[4:82])
 colnames(tidy_df3) <- cn
 
+write.table(tidy_df3, file = "tidy_data.txt", row.names=FALSE)
 
 
