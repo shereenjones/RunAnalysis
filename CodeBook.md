@@ -16,6 +16,8 @@ The fields in the Data Set are:
 		The means and standard devations vectors were identified as all features with "mean" in the name or "std" in the name.  This includes the individual 
 		means on the angle() feature (as described in features_info.txt of the original dataset.)
 		
+		The original dataset had the data divided into training data and testing data.  Both sets of data were combined prior to deriving the means.
+		
 		Each variable represents 1 of 17 features (as found in features_info.txt), on the X-Y-Z axis, and the mean and standard deviation of each.
 		Again, details may be found in features_info.txt.
 		
